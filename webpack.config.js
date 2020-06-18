@@ -105,8 +105,6 @@ module.exports = {
         hot: true,
         host: '0.0.0.0',
         https: true,
-        // key: fs.readFileSync('./certs/server.key'),
-        // cert: fs.readFileSync('./certs/server.cert'),
         proxy: {
             '/signaling': {
                 target: 'ws://localhost:3000',
